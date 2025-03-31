@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadiah Anda</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        h1 {
+            color: #2e7d32;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        
+        .prize-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #FF5722 0%, #FF9800 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+        }
+        
+        .prize-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 87, 34, 0.4);
+            background: linear-gradient(135deg, #E64A19 0%, #F57C00 100%);
+        }
+        
+        .instructions {
+            margin-top: 25px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <span class="icon">🎁</span>
+        <h1>selamat dapat thr</h1>
+        <p>Terima kasih telah menyelesaikan soal</p>
+        
+        <button class="prize-button" onclick="window.open('https://app.u.shopeepay.co.id/u/q5cm5cLj7NMrR72aciwDZ', '_blank')">
+            klaim hadiah
+        </button>
+        
+        <p class="instructions">Klik tombol di atas bro</p>
+    </div>
+</body>
+</html>
